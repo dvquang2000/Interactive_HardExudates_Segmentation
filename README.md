@@ -28,5 +28,5 @@ Push the automatic segmentation checkpoint into [automatic_weights](automatic_we
 ### Step2: Run Inference
 Execute the following command:
 ```.bash
-python demo.py --checkpoint=229_retinal_diceCE.pth --automatic_weight=automatic_weights/VGGUnet.tar --gpu=0
+python demo.py --checkpoint=RITM_EX.pth --automatic_weight=automatic_weights/VGGUnet_EX.tar --gpu=0
 ```
