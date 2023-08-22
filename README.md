@@ -21,7 +21,7 @@ You can watch a demo video by following this [link](https://drive.google.com/fil
 To run the interactive HardExudates segmentation demo, do the following steps:
 
 ### Step 1: Download weights 
-You can download the automatic and interactive segmentation checkpoints for HardEXudates in this [link](https://drive.google.com/file/d/1mmMp44DxQ-tn-zi3Hl5j83r64w5Zkxjz/view?usp=drive_link).
+You can download the automatic and interactive segmentation checkpoints for HardEXudates in this [link](https://drive.google.com/drive/folders/1PsjquPLz_dwBmv3_t8WyloqoofesLtb7?usp=drive_link).
 
 Push the automatic segmentation checkpoint into [automatic_weights](automatic_weights) and the interactive segmentation checkpoint into [weights](weights)
 
