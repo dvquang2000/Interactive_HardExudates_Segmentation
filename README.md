@@ -13,3 +13,20 @@ This framework is built using Python 3.6 and relies on the PyTorch 1.4.0+. The f
 ```.bash
 pip3 install -r requirements.txt
 ```
+## Segmentation Demo
+We will provide instructions for performing interactive HardExudates segmentation using the combined automatic segmentation and RITM.
+
+You can watch a demo video by following this [link](https://drive.google.com/file/d/1mmMp44DxQ-tn-zi3Hl5j83r64w5Zkxjz/view?usp=drive_link).
+
+To run the interactive HardExudates segmentation demo, do the following steps:
+
+### Step 1: Download weights 
+You can download the automatic and interactive segmentation checkpoints for HardEXudates in this [link](https://drive.google.com/file/d/1mmMp44DxQ-tn-zi3Hl5j83r64w5Zkxjz/view?usp=drive_link).
+
+Push the automatic segmentation checkpoint into [automatic_weights](automatic_weights) and the interactive segmentation checkpoint into [weights](weights)
+
+### Step2: Run Inference
+Execute the following command:
+```.bash
+python demo.py --checkpoint=229_retinal_diceCE.pth --automatic_weight=automatic_weights/VGGUnet.tar --gpu=0
+```
