@@ -30,3 +30,4 @@ Execute the following command:
 ```.bash
 python demo.py --checkpoint=RITM_EX.pth --automatic_weight=automatic_weights/VGGUnet_EX.tar --gpu=0
 ```
+Citation
