@@ -2,6 +2,12 @@
 
 This repository includes the necessary code and configuration files to replicate our work on HardExudates segmentation.
 
+![Figure](1-s2.0-S095741742303244X-gr11_lrg.jpg)
+
+# Interactive HardExudates Segmentation
+
+This repository includes the necessary code and configuration files to replicate our work on HardExudates segmentation.
+
 ## System requirements
 The source code is intended to run on a Linux workstation equipped with a GPU card.
 
@@ -31,7 +37,7 @@ Execute the following command:
 python demo.py --checkpoint=RITM_EX.pth --automatic_weight=automatic_weights/VGGUnet_EX.tar --gpu=0
 ```
 ## Citation
-```.bash
+```
 Quang Van Do, Ha Thu Hoang, Nga Van Vu, Danilo Andrade De Jesus, Luisa Sanchez Brea, Hiep Xuan Nguyen, Anh Thi Lan Nguyen, Thanh Ngoc Le, Dung Thi My Dinh, Minh Thi Binh Nguyen, Huu Cong Nguyen, Anh Thi Van Bui, Ha Vu Le, Kelly Gillen, Thom Thi Vu, Ha Manh Luu,
 Segmentation of hard exudate lesions in color fundus image using two-stage CNN-based methods,
 Expert Systems with Applications,
